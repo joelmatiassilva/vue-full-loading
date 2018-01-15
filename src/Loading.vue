@@ -132,8 +132,8 @@
     .loader-wrapper {
         position: absolute;
         display: inline-block;
-        right: 10vw;
-        bottom: 10vh;
+        right: 50%;
+        bottom: 50%;
     }
 
     .pulled-left {
