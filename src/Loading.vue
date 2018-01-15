@@ -173,23 +173,23 @@
         opacity: 0;
     }
 
-    .spinner-layer--blue {
-        border-color: #4285f4;
+    .spinner-layer--sky-blue {
+        border-color: #009bdb;
         -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(.4, 0, .2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(.4, 0, .2, 1) infinite both;
     }
 
     .spinner-layer--red {
-        border-color: #db4437;
+        border-color: #0055a6;
         -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(.4, 0, .2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(.4, 0, .2, 1) infinite both;
     }
 
     .spinner-layer--yellow {
-        border-color: #f4b400;
+        border-color: #009bdb;
         -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(.4, 0, .2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(.4, 0, .2, 1) infinite both;
     }
 
     .spinner-layer--green {
-        border-color: #0f9d58;
+        border-color: #009bdb;
         -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(.4, 0, .2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(.4, 0, .2, 1) infinite both;
     }
 
