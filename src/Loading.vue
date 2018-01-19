@@ -119,7 +119,7 @@
 </script>
 <style scoped>
     .white-overlay {
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: #fff;
         z-index: 9999;
         top: 0;
         left: 0;
@@ -138,6 +138,8 @@
 
     .pulled-left {
         float: left;
+        font-size: 3vh;
+        line-height: 3vh;
     }
 
     *, *:before, *:after {
