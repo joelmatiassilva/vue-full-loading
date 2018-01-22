@@ -164,7 +164,6 @@
         to {
             transform: rotate(360deg);
         }
-
     ;
     }
 
@@ -261,11 +260,11 @@
 
     @-webkit-keyframes red-fade-in-out {
         from {
-            opacity: 0;
+            opacity: 1;
         }
 
         15% {
-            opacity: 0;
+            opacity: 1;
         }
 
         25% {
