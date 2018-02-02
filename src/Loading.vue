@@ -132,6 +132,7 @@
     }
     .white-overlay {
         background-color: #fff;
+        font-family: Roboto-Regular;
         z-index: 9999;
         top: 0;
         left: 0;
