@@ -118,6 +118,18 @@
     }
 </script>
 <style scoped>
+    @font-face {
+        font-family: Roboto-Medium;
+        src: url(./fonts/Roboto-Medium.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: Roboto-Regular;
+        src: url(./fonts/Roboto-Regular.ttf) format("truetype");
+    }
+    @font-face {
+        font-family: Roboto-Bold;
+        src: url(./fonts/Roboto-Bold.ttf) format("truetype");
+    }
     .white-overlay {
         background-color: #fff;
         z-index: 9999;
