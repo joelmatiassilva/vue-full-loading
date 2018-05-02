@@ -131,7 +131,7 @@
         src: url(./fonts/Roboto-Bold.ttf) format("truetype");
     }
     .white-overlay {
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.75);
         font-family: Roboto-Regular;
         z-index: 9999;
         top: 0;
