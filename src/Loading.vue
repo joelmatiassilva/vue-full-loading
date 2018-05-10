@@ -3,7 +3,7 @@
             enter-active-class="animated fadeIn"
             leave-active-class="animated fadeOut"
     >
-        <div v-if="showing" :class="{'white-overlay': overlay}">
+        <div v-if="show" :class="{'white-overlay': overlay}">
             <div class="loader-wrapper">
                 <div class="pulled-left" style="padding: 10px 20px">{{label}}</div>
                 <div class="wrapper">
