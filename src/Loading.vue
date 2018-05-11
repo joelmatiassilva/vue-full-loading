@@ -7,6 +7,10 @@
             <div class="loader-wrapper">
                 <div class="pulled-left" style="padding: 10px 20px">{{label}}</div>
                 <div class="wrapper">
+                  <template v-if="gifURL">
+                    <img src="/static/temp/img/loading.gif" alt="Cargando...">
+                  </template>
+                  <template v-else>
                     <div class="spinner-container">
                         <div class="spinner-layer spinner-layer--blue">
                             <div class="spinner-clipper spinner-clipper--left">
@@ -56,6 +60,7 @@
                             </div>
                         </div>
                     </div>
+                  </template>
                 </div>
             </div>
         </div>
@@ -70,6 +75,9 @@
             },
             show: {
                 default: false
+            },
+            gifURL: {
+                default: ''
             },
             overlay: {
                 default: true
