@@ -170,7 +170,7 @@
     .wrapper {
         position: relative;
         display: inline-block;
-        width: 40px;
+        width: 95px;
         height: 40px;
         font-size: 0;
     }
